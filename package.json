@@ -4,8 +4,12 @@
   "description": "JSON server for Inventory Manager App",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "npm install && npm install json-server && node server.js"
   },
   "author": "Jongmin Jack Kim",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "server": "^1.0.37"
+  }
 }
